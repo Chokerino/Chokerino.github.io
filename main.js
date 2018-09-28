@@ -15,13 +15,13 @@ function setUserName()
 {
 	var myName = prompt('Enter:');
 	localStorage.setItem('name',myName);
-	myHeading.textContent = 'Alliance , '+myName;
+	myHeading.textContent = 'Welcome , '+myName;
 }
 if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   var storedName = localStorage.getItem('name');
-  myHeading.textContent = 'Alliance , ' + storedName;
+  myHeading.textContent = 'Welcome , ' + storedName;
 }
 mybutton.onclick = function(){
 	setUserName();
