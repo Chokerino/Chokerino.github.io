@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Pacifico|Bangers|Rancho');
+
 html {
   background-color: #7AF400;
 }
@@ -14,7 +16,7 @@ h1
   padding: 20px 0;    
   color: #000000;
   font-family: 'Bangers', cursive;
-  text-shadow: 3px 3px 1px white;
+  text-shadow: 3px 6px 1px white;
   font-size: 100px;
   text-align: center;
   
@@ -25,8 +27,14 @@ img
   margin: 0 auto;
 }
 p, li ,a{
-  font-size: 25px;    
-  line-height: 2;
+  font-family: 'Rancho', serif;
+  font-size: 38px; 
+  line-height: 1;
   letter-spacing: 1px;
-  font-family: 'Lobster', cursive;
+}
+ul{
+  background-color: #FF6347;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  letter-spacing: 1px;
 }
